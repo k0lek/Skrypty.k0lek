@@ -1,8 +1,10 @@
+# strona.py
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
+
 def hello_world():
-  return "<p>Hello, world!</p<"
+  return "Hello, world!"
 
